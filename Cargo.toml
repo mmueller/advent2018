@@ -1,0 +1,11 @@
+[package]
+name = "advent2018"
+version = "0.1.0"
+authors = ["Mike Mueller <mike@subfocal.net>"]
+
+[dependencies]
+argparse = ""
+failure = ""
+itertools = ""
+lazy_static = ""
+regex = ""
