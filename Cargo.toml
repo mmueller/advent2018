@@ -6,6 +6,8 @@ authors = ["Mike Mueller <mike@subfocal.net>"]
 [dependencies]
 argparse = ""
 failure = ""
+image = ""
 itertools = ""
 lazy_static = ""
+rand = ""
 regex = ""

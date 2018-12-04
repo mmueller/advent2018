@@ -10,3 +10,4 @@ Cargo.lock
 **/*.rs.bk
 
 src/advent/_all_days.rs
+imgs/
