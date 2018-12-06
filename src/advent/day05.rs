@@ -55,10 +55,7 @@ impl Solver {
     }
 
     fn should_annihilate(c1: char, c2: char) -> bool {
-        if c1.to_ascii_lowercase() != c2.to_ascii_lowercase() {
-            return false;
-        }
-        c1.is_uppercase() ^ c2.is_uppercase()
+        c1.eq_ignore_ascii_case(&c2) && (c1.is_uppercase() ^ c2.is_uppercase())
     }
 }
 
