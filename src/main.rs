@@ -1,5 +1,7 @@
 extern crate argparse;
 #[macro_use]
+extern crate cached;
+#[macro_use]
 extern crate failure;
 extern crate image;
 extern crate itertools;
