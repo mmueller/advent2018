@@ -1,12 +1,11 @@
 extern crate argparse;
-#[macro_use]
-extern crate cached;
-#[macro_use]
-extern crate failure;
+#[macro_use] extern crate cached;
+#[macro_use] extern crate enum_primitive;
+#[macro_use] extern crate failure;
 extern crate image;
 extern crate itertools;
-#[macro_use]
-extern crate lazy_static;
+#[macro_use] extern crate lazy_static;
+extern crate num;
 extern crate rand;
 extern crate regex;
 
